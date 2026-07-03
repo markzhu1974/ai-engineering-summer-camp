@@ -1,0 +1,30 @@
+# Week 6：Opencode + DeepSeek Python 编程实践
+
+本周目标：使用 Opencode 连接 DeepSeek，在本地完成一个 Python 命令行项目 Task Tracker，并练习 AI 编程中的上下文提供、测试优先、Bug 修复、重构、文档补全和安全审查。
+
+本目录基于 `Codex_Step_by_Step_Hands_On_Training.pdf` 的训练思路改写。原 PDF 的训练对象是 Codex；本周版本改为 Opencode + DeepSeek + Python，并继续采用“本地文件夹 + 本地快照”的方式，不依赖 Git 或 GitHub。
+
+## 建议完成顺序
+
+1. 打开 [运行指南.md](运行指南.md)，完成 VS Code、Python、Node.js、Opencode 的安装。
+2. 按 [docs/opencode_deepseek_setup.md](docs/opencode_deepseek_setup.md) 连接 DeepSeek API。
+3. 按 [docs/experiment_plan.md](docs/experiment_plan.md) 完成 10 个动手实验。
+4. 每完成一个实验，在 `reports/` 中记录提示词、运行结果和问题。
+5. 最后按 [docs/final_checklist.md](docs/final_checklist.md) 做验收。
+
+## 本周交付物
+
+完成后，`week6` 下建议至少保留这些内容：
+
+- `task-tracker/`：你用 Opencode 生成并迭代出来的 Python 项目。
+- `snapshots/`：每个大步骤前复制出来的本地快照。
+- `reports/prompt_log.md`：从模板复制后填写的提示词记录。
+- `reports/bug_fix_log.md`：从模板复制后填写的 Bug 修复记录。
+- `reports/final_report.md`：从模板复制后填写的最终报告。
+
+## 参考资料
+
+- Opencode 官方文档：https://opencode.ai/docs/
+- DeepSeek API 文档：https://api-docs.deepseek.com/
+- Python 官方下载：https://www.python.org/downloads/
+- pytest 文档：https://docs.pytest.org/

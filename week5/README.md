@@ -1,0 +1,62 @@
+# Week 5: KiCad PCB Design and RL_PCB Demo
+
+这是暑期 AI 工程实践训练营第五周的完整实践任务包。
+
+本周分成两个部分：
+
+1. 使用 KiCad 8.x 完成第一个 5V 转 3.3V 电源转换板，并生成 Gerber 文件。
+2. Clone 并尝试运行开源强化学习 PCB 组件摆放项目 `rl_pcb`。
+
+## 为什么本周不用 Notebook
+
+本周主要工作不是数据分析或模型训练，而是：
+
+- 使用 KiCad GUI 绘制原理图和 PCB。
+- 导出 Gerber、Drill、BOM、截图等工程交付物。
+- 在命令行中 clone、配置和运行外部 GitHub 仓库。
+- 写复现实验记录和技术学习报告。
+
+因此本周采用“实践指南 + 工程目录 + 报告模板”的形式，而不是 Jupyter Notebook。
+
+## 项目结构
+
+```text
+week5/
+├── README.md
+├── 运行指南.md
+├── .vscode/
+│   └── extensions.json
+├── kicad_project/
+│   ├── README.md
+│   ├── 5v_to_3v3_power_board_spec.md
+│   └── kicad_checklist.md
+├── gerber/
+├── screenshots/
+├── rl_pcb_workspace/
+│   └── README.md
+├── reports/
+│   ├── kicad_report_template.md
+│   ├── rl_pcb_report_template.md
+│   └── final_week5_report_template.md
+└── scripts/
+    └── check_week5_deliverables.py
+```
+
+## 运行入口
+
+请先阅读：
+
+```text
+运行指南.md
+```
+
+本周最终交付：
+
+- KiCad 工程文件。
+- 5V 转 3.3V 电源转换板原理图截图。
+- PCB Layout 截图。
+- DRC 通过截图。
+- Gerber 和 Drill 文件。
+- `rl_pcb` clone 和运行记录。
+- Week5 技术学习报告。
+

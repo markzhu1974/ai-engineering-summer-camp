@@ -1,0 +1,8 @@
+python-dotenv
+requests
+pandas
+jupyter
+ipykernel
+transformers
+torch
+
