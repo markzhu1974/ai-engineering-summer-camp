@@ -1,1 +1,1 @@
-# ai-engineering-camp
+# ai-engineering-summer-camp
