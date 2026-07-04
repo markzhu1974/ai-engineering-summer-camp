@@ -54,7 +54,7 @@
 
 ---
 
-## Day1 AI开发环境与第一个AI项目
+## 1 AI开发环境与第一个AI项目
 
 ### 学习内容
 
@@ -114,7 +114,7 @@ README.md
 
 ---
 
-## Day2 特征工程（Feature Engineering）
+## 2 特征工程（Feature Engineering）
 
 ### 学习内容
 
@@ -164,7 +164,7 @@ clean_dataset.csv
 
 ---
 
-## Day3 第一个机器学习模型——线性回归
+## 3 第一个机器学习模型——线性回归
 
 ### 学习内容
 
@@ -224,7 +224,7 @@ linear_regression.ipynb
 
 ---
 
-## Day4 模型评估与结果可视化
+## 4 模型评估与结果可视化
 
 ### 学习内容
 
@@ -268,52 +268,6 @@ Matplotlib基础
 
 ---
 
-## Day5 Mini Project
-
-### 项目名称
-
-> **My First AI Project —— House Price Prediction**
-> 
-> 
-
-### 项目目标
-
-独立完成一个完整的小型AI项目。
-
-项目流程：
-
-```Plain Text
-读取数据
-
-↓
-
-EDA
-
-↓
-
-Feature Engineering
-
-↓
-
-Train/Test Split
-
-↓
-
-Linear Regression
-
-↓
-
-Evaluation
-
-↓
-
-Prediction
-
-↓
-
-Visualization
-```
-
 ### 项目成果
 
 完成一个完整的GitHub工程：
@@ -354,9 +308,6 @@ README中需要说明：
 
 ---
 
-## 第一周学习成果（Milestone）
-
-完成第一周后，学生应具备以下能力：
 
 # 第二周 PyTorch深度学习实践
 
@@ -386,7 +337,7 @@ README中需要说明：
 
 ---
 
-## Day1 PyTorch基础与Tensor
+## 1 PyTorch基础与Tensor
 
 ### 学习内容
 
@@ -456,7 +407,7 @@ Evaluate
 
 ---
 
-## Day2 MNIST数据集与数据加载
+## 2 MNIST数据集与数据加载
 
 ### 学习内容
 
@@ -504,7 +455,7 @@ PyTorch数据处理
 
 ---
 
-## Day3 使用MLP实现手写数字识别
+## 3 使用MLP实现手写数字识别
 
 ### 学习内容
 
@@ -564,7 +515,7 @@ Softmax
 
 ---
 
-## Day4 模型训练、评估与预测
+## 4 模型训练、评估与预测
 
 ### 学习内容
 
@@ -622,7 +573,7 @@ Accuracy曲线
 
 ---
 
-## Day5 CNN初步认识与Mini Project
+## 5 CNN初步认识与Mini Project
 
 ### 第一部分：CNN概念介绍
 
@@ -692,91 +643,6 @@ MLP vs CNN
 
 ---
 
-### Mini Project
-
-完成项目：
-
-> **MNIST Image Classifier（MLP）**
-> 
-> 
-
----
-
-### 项目要求
-
-完成一个完整的GitHub工程：
-
-```Plain Text
-week02_mnist_classifier/
-
-│
-
-├── data/
-
-├── models/
-
-├── notebook/
-
-├── src/
-
-│   ├── dataset.py
-
-│   ├── model.py
-
-│   ├── train.py
-
-│   ├── predict.py
-
-│   └── utils.py
-
-├── figures/
-
-├── checkpoints/
-
-├── requirements.txt
-
-└── README.md
-```
-
-项目功能要求：
-
-- 自动下载MNIST数据集 
-
-- 使用MLP进行训练 
-
-- 输出训练Loss和Accuracy 
-
-- 保存训练好的模型 
-
-- 加载模型进行预测 
-
-- 展示预测结果 
-
-- 绘制训练曲线 
-
-- GitHub提交完整工程 
-
-README需要包含：
-
-- 项目背景 
-
-- 数据集介绍 
-
-- 网络结构说明（MLP） 
-
-- 训练过程 
-
-- 实验结果 
-
-- 对MLP和CNN的简单对比 
-
-- 下一步可以如何改进（例如使用CNN） 
-
----
-
-## 第二周学习成果（Milestone）
-
-完成第二周后，学生应具备以下能力：
 
 # 第三周 大语言模型应用开发
 
@@ -784,7 +650,7 @@ README需要包含：
 
 **开发第一个LLM应用**
 
-### Day1 Prompt Engineering
+### 1 Prompt Engineering
 
 学习内容
 
@@ -802,7 +668,7 @@ README需要包含：
 
 ---
 
-### Day2 Transformers与Hugging Face
+### 2 Transformers与Hugging Face
 
 学习内容
 
@@ -820,7 +686,7 @@ README需要包含：
 
 ---
 
-### Day3 LLM API开发
+### 3 LLM API开发
 
 学习内容
 
@@ -836,7 +702,7 @@ README需要包含：
 
 ---
 
-### Day4 LangChain基础
+### 4 LangChain基础
 
 学习内容
 
@@ -852,25 +718,6 @@ README需要包含：
 
 ---
 
-### Day5 Mini Project
-
-完成：
-
-> **AI Chat Assistant**
-> 
-> 
-
-项目要求：
-
-- 支持连续对话 
-
-- 支持Prompt模板 
-
-- 支持历史记录 
-
-- GitHub提交
-
-
 
 # 第四周 Agent \+ RAG开发
 
@@ -878,7 +725,7 @@ README需要包含：
 
 **构建具有知识库能力的AI助手**
 
-### Day1 Embedding与向量检索
+### 1 Embedding与向量检索
 
 学习内容
 
@@ -894,7 +741,7 @@ README需要包含：
 
 ---
 
-### Day2 RAG开发
+### 2 RAG开发
 
 学习内容
 
@@ -910,7 +757,7 @@ README需要包含：
 
 ---
 
-### Day3 LangChain Agent
+### 3 LangChain Agent
 
 学习内容
 
@@ -926,7 +773,7 @@ README需要包含：
 
 ---
 
-### Day4 MCP初体验
+### 4 MCP初体验
 
 学习内容
 
@@ -944,7 +791,7 @@ README需要包含：
 
 ---
 
-### Day5 Mini Project
+### 5 Mini Project
 
 完成：
 
@@ -970,7 +817,7 @@ README需要包含：
 
 **了解PCB设计流程，体验强化学习在EDA中的应用**
 
-### Day1 KiCad安装与PCB设计流程
+### 1 KiCad安装与PCB设计流程
 
 学习内容
 
@@ -990,7 +837,7 @@ README需要包含：
 
 ---
 
-### Day2 第一个PCB设计
+### 2 第一个PCB设计
 
 实践内容
 
@@ -1012,7 +859,7 @@ README需要包含：
 
 ---
 
-### Day3 PCB制造文件生成
+### 3 PCB制造文件生成
 
 学习内容
 
@@ -1028,7 +875,7 @@ README需要包含：
 
 ---
 
-### Day4 强化学习PCB布局项目
+### 4 强化学习PCB布局项目
 
 学习内容
 
@@ -1052,7 +899,7 @@ Clone开源项目：
 
 ---
 
-### Day5 Mini Project
+### 5 Mini Project
 
 完成：
 
@@ -1080,7 +927,7 @@ Clone开源项目：
 
 **让AI成为你的Pair Programmer**
 
-### Day1 AI Coding工作流
+### 1 AI Coding工作流
 
 学习内容
 
@@ -1098,7 +945,7 @@ Clone开源项目：
 
 ---
 
-### Day2 Opencode实践
+### 2 Opencode实践
 
 学习内容
 
@@ -1116,7 +963,7 @@ Clone开源项目：
 
 ---
 
-### Day3 DeepSeek协同开发
+### 3 DeepSeek协同开发
 
 学习内容
 
@@ -1134,7 +981,7 @@ Clone开源项目：
 
 ---
 
-### Day4 AI Debugging
+### 4 AI Debugging
 
 学习内容
 
@@ -1154,7 +1001,7 @@ Clone开源项目：
 
 ---
 
-### Day5 Mini Project
+### 5 Mini Project
 
 完成：
 
@@ -1202,7 +1049,7 @@ Clone开源项目：
 
 ---
 
-## Day1 项目功能完善
+## 1 项目功能完善
 
 ## 学习内容
 
@@ -1258,7 +1105,7 @@ PCB_AI_Project/
 
 ---
 
-## Day2 AI Coding优化项目
+## 2 AI Coding优化项目
 
 ## 学习内容
 
@@ -1292,7 +1139,7 @@ AI Coding不是重新生成项目。
 
 ---
 
-## Day3 GitHub工程化
+## 3 GitHub工程化
 
 ## 学习内容
 
@@ -1334,7 +1181,7 @@ README第一版。
 
 ---
 
-## Day4 项目展示准备
+## 4 项目展示准备
 
 ## 学习内容
 
@@ -1384,7 +1231,7 @@ Demo演示
 
 ---
 
-## Day5 Final Demo
+## 5 Final Demo
 
 ## 项目最终展示
 
@@ -1525,14 +1372,6 @@ PCB_AI_Project/
 - AI辅助重构案例 
 
 形成完整的开发记录。
-
----
-
-## 第七周学习成果（Milestone）
-
-完成第七周后，学生应具备以下能力：
-
-
 
 ---
 
